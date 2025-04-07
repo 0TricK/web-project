@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Zoo Animals</title>
+    <link rel="stylesheet" type="text/css" href="../styles.css">
+    <style>
+        body {
+            font-family:Papyrus;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+        
+        h1 {
+            text-align: center;
+            color: Burlywood;
+        }
+        
+        .gallery {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .animal-card {
+            background-color: white;
+            border: 1px solid #cccccc;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+        }
+        
+        .animal-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .animal-info {
+            padding: 10px;
+        }
+        
+        .animal-name {
+            color: #000000;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        
+        .animal-description {
+            color: #333333;
+            font-size: 14px;
+        }
+        
+        @media (min-width: 600px) {
+            .gallery {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 15px;
+            }
+        }
+        
+        @media (min-width: 900px) {
+            .gallery {
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="bg">
+        <div class="logo">
+            <a href="../index.html"><img src="../zoo-logo.png" width="100px">   </a>
+        </div>
+        <div id="title">
+            Galway Zoo
+        </div>
+        <div class="dropdown">
+            <button>MORE</button>
+            <div class="links">
+                <a href="../prices.html">Pricing Information</a>
+                <a href="../index.html#animals">Our Animals</a>
+                <a href="../about.html">About Us</a>
+            </div>
+        </div>
+    </div>
+
+    <h1>The Desert</h1>
+    
+    <div class="gallery">
+        <div class="animal-card">
+            <img src="fox.jpg" alt="Fennec Fox" class="animal-image">
+            <div class="animal-info">
+                <h2 class="animal-name">Fennec Fox</h2>
+                <p class="animal-description">Habitat: Sahara Desert and North African deserts.
+Diet: Omnivore – insects, small rodents, fruits, and roots.
+Behavior: Nocturnal; uses its large ears to dissipate heat and detect prey underground.
+Fun Fact: World’s smallest fox, but has the largest hearts relative to body size!
+
+</p>
+            </div>
+        </div>
+        
+        <div class="animal-card">
+            <img src="camel.jpg" alt="Dromedary Camel" class="animal-image">
+            <div class="animal-info">
+                <h2 class="animal-name">Dromedary Camel</h2>
+                <p class="animal-description">Habitat: North AFrican and middle Eastern deserts<br>
+Diet: Herbivore – thorny plants, dry grasses, salty vegetation.<br>
+Behaviour: Stores fat in its hump for energy; can go for weeks without water.<br>
+Fun Fact: Can drink up to 40 gallons (150 liters) of water in one go!
+
+</p>
+            </div>
+        </div>
+        
+        <div class="animal-card">
+            <img src="lizard.jpg" alt="Horned Lizard" class="animal-image">
+            <div class="animal-info">
+                <h2 class="animal-name">Horned Lizard</h2>
+                <p class="animal-description">Habitat: North American deserts (e.g., Sonoran, Chihuahan).<br>
+Diet: Insectivore – mostly ants.<br>
+Behaviour: Camouflaged; stays still to avoid predators.<br>
+Fun Fact: Some species can squirt blood from their eyes as a defense mechanism!
+
+</p>
+            </div>
+        </div>
+        
+        <div class="animal-card">
+            <img src="scorpion.jpg" alt="Scorpion" class="animal-image">
+            <div class="animal-info">
+                <h2 class="animal-name">Scorpion</h2>
+                <p class="animal-description">
+Habitat: Deserts worldwide (e.g., Sahara, Mojave, Arabian).<br>
+Diet: Carnivore – insects, spiders, even small lizards.<br>
+Behaviour: Nocturnal; hides under rocks or in burrows during the day.<br>
+Fun Fact: Glow under UV light due to substances in their exoskeleton.
+
+</p>
+            </div>
+        </div>
+        
+        <div class="animal-card">
+            <img src="roadrunner.jpg" alt="Roadrunner" class="animal-image">
+            <div class="animal-info">
+                <h2 class="animal-name">Roadrunner</h2>
+                <p class="animal-description">Habitat: South Western U.S. and Mexican deserts.<br>
+Diet: Omnivore – insects, lizards, snakes, fruits.<br>
+Behaviour: Ground-dwelling; incredibly fast runners (Up to 20mph/  32km/h).<br>
+Fun Fact: They kill and eat rattlesnakes!
+
+</p>
+            </div>
+        </div>
+        
+       
+    </div>
+</body>
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Zoo Animals</title>
+    <link rel="stylesheet" type="text/css" href="../styles.css">
+    <style>
+        body {
+            font-family:Papyrus;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+        
+        h1 {
+            text-align: center;
+            color: Peru;
+        }
+        
+        .gallery {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .animal-card {
+            background-color: white;
+            border: 1px solid #cccccc;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+        }
+        
+        .animal-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .animal-info {
+            padding: 10px;
+        }
+        
+        .animal-name {
+            color: #000000;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        
+        .animal-description {
+            color: #333333;
+            font-size: 14px;
+        }
+        
+        @media (min-width: 600px) {
+            .gallery {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 15px;
+            }
+        }
+        
+        @media (min-width: 900px) {
+            .gallery {
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="bg">
+        <div class="logo">
+            <a href="../index.html"><img src="../zoo-logo.png" width="100px">   </a>
+        </div>
+        <div id="title">
+            Galway Zoo
+        </div>
+        <div class="dropdown">
+            <button>MORE</button>
+            <div class="links">
+                <a href="../prices.html">Pricing Information</a>
+                <a href="../index.html#animals">Our Animals</a>
+                <a href="../about.html">About Us</a>
+            </div>
+        </div>
+    </div>
+
+    <h1>The Savannah</h1>
+    
+    <div class="gallery">
+        <div class="animal-card">
+            <img src="giraffe-5767909_1280.jpg" alt="Giraffe" class="animal-image">
+            <div class="animal-info">
+                <h2 class="animal-name">Giraffe</h2>
+                <p class="animal-description">Habitat: Open woodlands and savannas, especially near acacia trees. <br>
+Diet: Herbivore - primarily leaves, especially acacia. <br>
+Behaviour: Live in loose herds; use necks to “neck fight” for dominance. <br>
+Fun Fact: The giraffe is the tallest land animal, with males reaching up to 18 feet(5.5 meters)!
+</p>
+            </div>
+        </div>
+        
+        <div class="animal-card">
+            <img src="zebras-4258909_1280.jpg" alt="Zebra" class="animal-image">
+            <div class="animal-info">
+                <h2 class="animal-name">Zebra</h2>
+                <p class="animal-description">Habitat: Grasslands and savannahs across eastern and southern Africa. <br>
+Diet: Herbivore – mostly grasses.<br>
+Behaviour: Live in herds; social and very alert.<br>
+Fun Fact: Each zebra has a unique stripe pattern, like a fingerprint.
+</p>
+            </div>
+        </div>
+        
+        <div class="animal-card">
+            <img src="impala2.jpg" alt="Impala" class="animal-image">
+            <div class="animal-info">
+                <h2 class="animal-name">Impala</h2>
+                <p class="animal-description">Habitat: Wooded savannas and grasslands across eastern and southern Africa.<br>
+Diet: Herbivore – grasses, leaves, and shoots.<br>
+Behaviour: Fast and agile; leap to 10 meters to escape predators.<br>
+Fun Fact: Males(rams) have long, curved horns and form harems during breeding season.
+</p>
+            </div>
+        </div>
+        
+        <div class="animal-card">
+            <img src="meerkat.jpg" alt="Meerkat" class="animal-image">
+            <div class="animal-info">
+                <h2 class="animal-name">Meerkat</h2>
+                <p class="animal-description">
+Habitat: Arid savannah and semi-deserts, especially in southern Africa. <br>
+Diet: Omnivore – insects, lizards, plants, eggs. <br>
+Behaviour: Live in mobs or clans; stand upright to scan for predators.<br>
+Fun Fact: Meerkats work cooperatively and even have “babysitters” for their young!
+</p>
+            </div>
+        </div>
+        
+        <div class="animal-card">
+            <img src="warthog.jpg" alt="Warthog" class="animal-image">
+            <div class="animal-info">
+                <h2 class="animal-name">Warthog</h2>
+                <p class="animal-description">Habitat: Open savannah and grasslands. <br>
+Diet: Omnivore - grasses, roots, berries, insects. <br>
+Behaviour: Use burrows for shelter; run with tails upright when fleeing. <br>
+Fun Fact: Despite their looks, warthogs are surprisingly fast and smart.
+</p>
+            </div>
+        </div>
+        
+        <div class="animal-card">
+            <img src="elephant.jpg" alt="Elephant" class="animal-image">
+            <div class="animal-info">
+                <h2 class="animal-name">Elephant</h2>
+                <p class="animal-description">Habitat: Savannahs, grasslands, and woodlands across sub-Saharan Africa.<br>
+Diet: Herbivore – grasses, bark, roots, and fruit.<br>
+Behaviour: Highly social; live in matriarchal herds.<br>
+Fun Fact: Elephants have incredible memories and communicate using infrasound over long distances. 
+</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

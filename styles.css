@@ -2,6 +2,8 @@ body {
 	background-image: url(pattern.png);
 	background-size: 250px;
 	background-repeat: repeat;
+	font-size: 20px;
+	font-family:Papyrus;
 	margin: 0px;
 }
 p {
@@ -11,7 +13,6 @@ p {
 div.bg {
 	background-image: url(landing-page-background.jpeg);
 	background-size: 100%;
-	
 	width: 100%;
 	height: 300px;
 	margin: 0px;	
@@ -70,6 +71,10 @@ div.bg div {
 	padding-top: 50px;
 	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.58);
 }
+.dropdown .links a:hover, .dropdown .links a:active {
+	background-color: rgba(255, 228, 196, 0.575);
+	color: black;
+}
 .dropdown:hover .links {
 	display: block;
 }
@@ -78,7 +83,6 @@ div.content div {
 	padding: 15px 20px;
 }
 div.main {
-	font-size: 20px;
 	display: flex;
 	justify-content: space-between;
 	background-repeat: no-repeat;
@@ -141,6 +145,10 @@ div.column .hours {
 	background-repeat: no-repeat;
 	align-content: end;
 }
+.button:hover, .button:active {
+	background-color: rgba(46, 71, 39, 0.79);
+	color: white;
+}
 .button { 
 	background-color: rgba(106, 138, 83, 0.941); 
 	border: solid; 
@@ -179,4 +187,21 @@ div.day .button {
 	display: inline-block; 
 	font-size: 20px; 
 	cursor: pointer;
+}
+.about:hover a {
+	background-color: rgba(55, 71, 43, 0.781);
+}
+.animals {
+	padding: 10px 40px;
+}
+.animals a {
+	margin: 20px;
+	padding: 20px 150px 180px 150px;
+	border-radius: 10px;
+	text-decoration: none;
+	color: white;
+	font-size: 28px;
+}
+.animals a:hover {
+	opacity: 0.6;
 }

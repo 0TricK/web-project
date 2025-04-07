@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Zoo Animals</title>
+    <link rel="stylesheet" type="text/css" href="../styles.css">
+    <style>
+        body {
+            font-family:Papyrus;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+        
+        h1 {
+            text-align: center;
+            color: darkseagreen;
+        }
+        
+        .gallery {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .animal-card {
+            background-color: white;
+            border: 1px solid #cccccc;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+        }
+        
+        .animal-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .animal-info {
+            padding: 10px;
+        }
+        
+        .animal-name {
+            color: #000000;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        
+        .animal-description {
+            color: #333333;
+            font-size: 14px;
+        }
+        
+        @media (min-width: 600px) {
+            .gallery {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 15px;
+            }
+        }
+        
+        @media (min-width: 900px) {
+            .gallery {
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="bg">
+        <div class="logo">
+            <a href="../index.html"><img src="../zoo-logo.png" width="100px">   </a>
+        </div>
+        <div id="title">
+            Galway Zoo
+        </div>
+        <div class="dropdown">
+            <button>MORE</button>
+            <div class="links">
+                <a href="../prices.html">Pricing Information</a>
+                <a href="../index.html#animals">Our Animals</a>
+                <a href="../about.html">About Us</a>
+            </div>
+        </div>
+    </div>
+
+    <h1>The Rainforest</h1>
+    
+    <div class="gallery">
+        <div class="animal-card">
+            <img src="howlermonkey.jpg" alt="Howler Monkey" class="animal-image">
+            <div class="animal-info">
+                <h2 class="animal-name">Howler Monkey</h2>
+                <p class="animal-description">Habitat: Tropical rainforests of Central and South America.<br>
+Diet: Herbivore – leaves, fruits, and flowers.<br>
+Behaviour: Live in troops; known for their loud, eerie howls.<br>
+Fun Fact: Their howls can be heard up to 3 miles (5km) away through dense forest!
+
+</p>
+            </div>
+        </div>
+        
+        <div class="animal-card">
+            <img src="frog.jpg" alt="Red-eyed Tree Frog" class="animal-image">
+            <div class="animal-info">
+                <h2 class="animal-name">Red-eyed Tree Frog</h2>
+                <p class="animal-description">Habitat: Lowland rainforests of Central America.<br>
+Diet: Carnivore – insects like crickets and moths.<br>
+Behaviour: Nocturnal and arboreal; uses its bright colors to startle predators.<br>
+Fun Fact: Despite their wild look, they are not poisonous!
+
+</p>
+            </div>
+        </div>
+        
+        <div class="animal-card">
+            <img src="macaw.jpg" alt="Scarlet Macaw" class="animal-image">
+            <div class="animal-info">
+                <h2 class="animal-name">Scarlet Macaw</h2>
+                <p class="animal-description">Habitat: Rainforests in Central and South America, especially the Amazon.<br>
+Diet: Herbivore – fruits, nuts, seeds.<br>
+Behaviour: Very social; often seen in pairs or flocks.<br>
+Fun Fact: Can live up to 75 years and mimic human speech!
+
+</p>
+            </div>
+        </div>
+        
+        
+        <div class="animal-card">
+            <img src="lemur.jpg" alt="Lemur" class="animal-image">
+            <div class="animal-info">
+                <h2 class="animal-name">Lemur</h2>
+                <p class="animal-description">Habitat: Rainforests of Madagascar only.<br>
+Diet: Omnivore – fruit, leaves, flowers, insects.<br>
+Behaviour: Social and active during the day (diurnal).<br>
+Fun Fact: There are over 100 species of lemurs, all endemic to Madagascar!
+
+</p>
+            </div>
+        </div>
+        
+        <div class="animal-card">
+            <img src="sloth.jpg" alt="Sloth" class="animal-image">
+            <div class="animal-info">
+                <h2 class="animal-name">Sloth</h2>
+                <p class="animal-description">Habitat: Tropical rainforests of Central and South America.<br>
+Diet: Herbivore – mostly leaves.<br>
+Behaviour: Extremely slow-moving; spends most of its life hanging upside down.<br>
+Fun Fact: Sloths only poop once a week – and climb down to do it!
+
+</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

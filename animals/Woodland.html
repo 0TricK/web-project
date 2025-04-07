@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Zoo Animals</title>
+    <link rel="stylesheet" type="text/css" href="../styles.css">
+    <style>
+        body {
+            font-family:Papyrus;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+        
+        h1 {
+            text-align: center;
+            color: Sienna;
+        }
+        
+        .gallery {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .animal-card {
+            background-color: white;
+            border: 1px solid #cccccc;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+        }
+        
+        .animal-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .animal-info {
+            padding: 10px;
+        }
+        
+        .animal-name {
+            color: #000000;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        
+        .animal-description {
+            color: #333333;
+            font-size: 14px;
+        }
+        
+        @media (min-width: 600px) {
+            .gallery {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 15px;
+            }
+        }
+        
+        @media (min-width: 900px) {
+            .gallery {
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="bg">
+        <div class="logo">
+            <a href="../index.html"><img src="../zoo-logo.png" width="100px">   </a>
+        </div>
+        <div id="title">
+            Galway Zoo
+        </div>
+        <div class="dropdown">
+            <button>MORE</button>
+            <div class="links">
+                <a href="../prices.html">Pricing Information</a>
+                <a href="../index.html#animals">Our Animals</a>
+                <a href="../about.html">About Us</a>
+            </div>
+        </div>
+    </div>
+
+    <h1>The Woodland</h1>
+    
+    <div class="gallery">
+        <div class="animal-card">
+            <img src="redfox.jpg" alt="Red Fox" class="animal-image">
+            <div class="animal-info">
+                <h2 class="animal-name">Red Fox</h2>
+                <p class="animal-description">Habitat: Temperate woodlands, meadows, and even urban areas across North America, Europe, and Asia.<br>
+Diet: Omnivore – small mammals, birds, fruits, insects.<br>
+Behaviour: Solitary hunters; use keen senses of smell and hearing.<br>
+Fun Fact: Red foxes can hear small rodents digging under snow or soil!
+
+</p>
+            </div>
+        </div>
+        
+        <div class="animal-card">
+            <img src="whitedeer.jpg" alt="White-tailed Deer" class="animal-image">
+            <div class="animal-info">
+                <h2 class="animal-name">White-tailed Deer</h2>
+                <p class="animal-description">Habitat: Forest, woodlands, and grasslands across North and Central America<br>
+Diet: Herbivore – leaves, twigs, fruits, nuts.<br>
+Behaviour: Social; females form groups with fawns, males are more solitary.<br>
+Fun Fact: Their tails flash white as a warning signal fleeing predators!
+
+</p>
+            </div>
+        </div>
+        
+        <div class="animal-card">
+            <img src="wildboar.jpg" alt="Wild Boar" class="animal-image">
+            <div class="animal-info">
+                <h2 class="animal-name">Wild Boar</h2>
+                <p class="animal-description">Habitat: Forests and woodlands across Europe, Asia and parts of Africa.<br>
+Diet: Herbivore – roots, bulbs, small animals, and carrion.<br>
+Behaviour: Live in groups called sounders; dig up soil with strong snouts.<br>
+Fun Fact: Wild boars are ancestors of domestic pigs and are highly adaptable.
+
+</p>
+            </div>
+        </div>
+        
+        <div class="animal-card">
+            <img src="kangaroo.jpg" alt="Eastern Grey Kangaroo" class="animal-image">
+            <div class="animal-info">
+                <h2 class="animal-name">Eastern Grey Kangaroo</h2>
+                <p class="animal-description">
+Habitat: Woodlands and open forests of eastern and southern Australia.<br>
+Diet: Herbivore – grasses and shrubs.<br>
+Behavior: Social; live in mobs; powerful hind legs for hopping and defense.<br>
+Fun Fact: Can leap over 25 feet (7.6m) in a single bound!
+
+</p>
+            </div>
+        </div>
+        
+        <div class="animal-card">
+            <img src="owl2.jpg" alt="Barn Owl
+" class="animal-image">
+            <div class="animal-info">
+                <h2 class="animal-name">Barn  Owl</h2>
+                <p class="animal-description">Habitat: Woodlands, grasslands, and farmland worldwide (except polar and desert regions).<br>
+Diet: Carnivore – primarily rodents and small mammals.<br>
+Behavior: Nocturnal hunters; fly silently due to specialized feathers.<br>
+Fun Fact: Their heart-shaped face helps funnel sound for pinpoint hunting accuracy.
+
+</p>
+            </div>
+        </div>
+        
+        
+    </div>
+</body>
+</html>

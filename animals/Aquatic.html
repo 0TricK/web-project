@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Zoo Animals</title>
+    <link rel="stylesheet" type="text/css" href="../styles.css">
+    <style>
+        body {
+            font-family:Papyrus;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+        
+        h1 {
+            text-align: center;
+            color: Navy;
+        }
+        
+        .gallery {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .animal-card {
+            background-color: white;
+            border: 1px solid #cccccc;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+        }
+        
+        .animal-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .animal-info {
+            padding: 10px;
+        }
+        
+        .animal-name {
+            color: #000000;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        
+        .animal-description {
+            color: #333333;
+            font-size: 14px;
+        }
+        
+        @media (min-width: 600px) {
+            .gallery {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 15px;
+            }
+        }
+        
+        @media (min-width: 900px) {
+            .gallery {
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="bg">
+        <div class="logo">
+            <a href="../index.html"><img src="../zoo-logo.png" width="100px">   </a>
+        </div>
+        <div id="title">
+            Galway Zoo
+        </div>
+        <div class="dropdown">
+            <button>MORE</button>
+            <div class="links">
+                <a href="../prices.html">Pricing Information</a>
+                <a href="../index.html#animals">Our Animals</a>
+                <a href="../about.html">About Us</a>
+            </div>
+        </div>
+    </div>
+
+    <h1>The Aquatic</h1>
+    
+    <div class="gallery">
+        <div class="animal-card">
+            <img src="sealion.jpg" alt="Sea Lion" class="animal-image">
+            <div class="animal-info">
+                <h2 class="animal-name">Sea Lion</h2>
+                <p class="animal-description">Habitat: Coastal waters of the Pacific Ocean – especially North and South America.<br>
+Diet: Carnivore – fish, squid, octopus.<br>
+Behavior: Social; gather in large colonies on beaches or rocky shores.<br>
+Fun Fact: Unlike seals, sea lions walk on land using their flippers and are very vocal! 
+
+</p>
+            </div>
+        </div>
+        
+        <div class="animal-card">
+            <img src="penguin.jpg" alt="King Penguin" class="animal-image">
+            <div class="animal-info">
+                <h2 class="animal-name">King Penguin</h2>
+                <p class="animal-description">Habitat: Subantarctic islands and cold ocean waters.<br>
+Diet: Carnivore – mostly fish and squid.<br>
+Behavior: Form huge breeding colonies; excellent divers (up to 300 meters/985 feet).<br>
+Fun Fact: Second largest penguin species after the Emperor PEnguin - up to 3ft (1m) tall!
+
+</p>
+            </div>
+        </div>
+        
+        <div class="animal-card">
+            <img src="otter.jpg" alt="Otter" class="animal-image">
+            <div class="animal-info">
+                <h2 class="animal-name">Otter</h2>
+                <p class="animal-description">Habitat: Freshwater rivers/lakes (river otters) and coastal marine environments (sea otters).<br>
+Diet: Carnivore – fish, crustaceans, mollusks.<br>
+Behaviour: Playful and intelligent; use tools (like rocks) to open shellfish.<br>
+Fun Fact: Sea otters hold hands while floating in groups called “rafts” so they don’t drift apart.
+
+</p>
+            </div>
+        </div>
+        
+        <div class="animal-card">
+            <img src="dolphin.jpg" alt="Dophin" class="animal-image">
+            <div class="animal-info">
+                <h2 class="animal-name">Dolphin</h2>
+                <p class="animal-description">
+Habitat: Oceans worldwide; some species in rivers (like Amazon river dolphin).<br>
+Diet: fish, squid<br>
+Behaviour: Highly intelligent and social; use echolocation to hunt.<br>
+Fun Fact: Dolphins have names – unique signature whistles to identify each other. 
+
+</p>
+            </div>
+        </div>
+        
+        <div class="animal-card">
+            <img src="turtle.jpg" alt="Sea Turtle" class="animal-image">
+            <div class="animal-info">
+                <h2 class="animal-name">Sea Turtle</h2>
+                <p class="animal-description">Habitat: Tropical and subtropical oceans; nest on sandy beaches.<br>
+Diet: Varies by species – jellyfish, seagrass, algae, crustaceans.<br>
+Behavior: Solitary; long-distance ocean travelers; females return to birthplace to lay eggs.<br>
+Fun Fact: Can live over 50 years – some over 100 – and migrate thousands of miles!
+
+</p>
+            </div>
+        </div>
+        
+        
+    </div>
+</body>
+</html>
